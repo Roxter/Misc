@@ -1,0 +1,2 @@
+java -jar project_ProducersConsumers\out\artifacts\project_ProducersConsumers_jar\project_ProducersConsumers.jar
+pause

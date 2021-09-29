@@ -1,0 +1,125 @@
+(* Binary Complement Signature VHDL Implementation *)
+target "VHDL/Synopsis";
+
+prologue "library ieee;";
+prologue "use ieee.std_logic_1164.all;";
+prologue "use ieee.std_logic_arith.all;";
+(*prologue "use ieee.std_logic_signed.all;";
+prologue "use ieee.std_logic_unsigned.all;"; *)
+prologue "use work.bincompl.all;"; 
+
+(* Signed integer type implementation *)
+type int(_) = " std_logic_vector; ($0-1 downto 0); conv_std_logic_vector; toStringSigned; conv_integer_bound_signed";
+
+(* Unsigned integer type implementation *)
+type uint(_) = " std_logic_vector; ($0-1 downto 0); conv_std_logic_vector; toStringUnsigned; conv_integer_bound_unsigned";
+
+(* Boolean type implementation *)
+type bool = " std_logic_vector; (0 downto 0); conv_std_logic_vector; toStringBool; conv_integer_bound_bool";
+
+fun abs int(_) = "bc_abs";
+
+(* Addition  *)
+infix +   int(_), int(_) = "bc_signed_add";
+infix +   uint(_), uint(_) = "bc_unsigned_add";
+
+(* Subtraction  *)
+infix -   int(_), int(_) = "bc_signed_sub";
+infix -   uint(_), uint(_) = "bc_unsigned_sub";
+
+(* Extensible addition  *)
+infix >+   int(_), int(_) = "bc_signed_eadd";
+infix >+   uint(_), uint(_) = "bc_unsigned_eadd";
+
+(* Negation *)
+prefix - int(_) = "bc_signed_not";
+
+(* Multiplication  *)
+infix *   int(_), int(_) = "bc_signed_mul";
+
+infix *   uint(_), uint(_) = "bc_unsigned_mul";
+
+(* Divider  *)
+infix /   int(_), int(_) = "bc_signed_div";
+
+(* Modulo  *)
+infix %   int(_), int(_) = "rem";
+
+(* Extensible multiplication *)
+infix >*   int(_), int(_) = "bc_signed_emul";
+infix >*   uint(_), uint(_) = "bc_unsigned_emul";
+
+(* Comparisons *)
+infix <  uint(_), uint(_) = "bc_unsigned_lt";
+infix >  uint(_), uint(_) = "bc_unsigned_gt";
+infix <= uint(_), uint(_) = "bc_unsigned_le";
+infix >= uint(_), uint(_) = "bc_unsigned_ge";
+infix <  int(_), int(_) = "bc_signed_lt";
+infix >  int(_), int(_) = "bc_signed_gt";
+infix <= int(_), int(_) = "bc_signed_le";
+infix >= int(_), int(_) = "bc_signed_ge";
+infix == int(_), int(_) = "equal";
+infix == uint(_), uint(_) = "equal";
+infix != int(_), int(_) = "bc_signed_ne";
+infix != uint(_), uint(_) = "bc_unsigned_ne";
+
+(* Bitwise operations *)
+infix & int(_), int(_) = "bc_unsigned_and";
+infix ! int(_), int(_) = "bc_unsigned_or";
+infix ^ int(_), int(_) = "bc_unsigned_xor";
+
+(* Bitwise operations *)
+infix & uint(_), uint(_) = "bc_unsigned_and";
+infix ! uint(_), uint(_) = "bc_unsigned_or";
+infix ^ uint(_), uint(_) = "bc_unsigned_xor";
+
+prefix ~ int(_) = "not";
+prefix ~ uint(_) = "bc_unsigned_not";
+
+(* Bitwise shifts *)
+infix << int(_), [_]    = "shlConst"; (* TODO: attenzzione, this is a logical shift! *)
+infix >> int(_), [_]    = "shrConst";
+infix << uint(_), [_]    = "shlConst"; (* TODO: attenzzione, this is a logical shift! *)
+infix >> uint(_), [_]    = "shrConst";
+
+infix >> uint(_), uint(_) = "shrUns";
+infix << uint(_), uint(_) = "shlUns";
+infix <<  int(_), uint(_) = "shlUns";
+
+
+(* Boolean operators *)
+infix && bool, bool = "bc_bool_and";
+infix !! bool, bool = "bc_bool_or";
+infix ^^ bool, bool = "bc_bool_xor";
+
+prefix ! bool = "bc_bool_not";
+
+fun decode3to8  uint(3) = "decode3to8";
+fun decode2to4  uint(2) = "decode2to4";
+
+(* Extension and it's zero flag *)
+fun ext  int(_), [_] = "bc_signed_c_ext";
+
+fun ext uint(_), [_] = "bc_unsigned_c_ext";
+
+(* Signed extension and it's zero flag *)
+fun sext  int(_), [_] = "bc_signed_c_sxt";
+
+fun left  uint(_), [_]  = "left";
+fun right  uint(_), [_]  = "right";
+
+infix / uint(_), [_] = "bc_unsigned_div_by_const";
+
+(* Extensible substraction *)
+infix >-   int(_), int(_)   = "bc_signed_esub";
+infix >-   uint(_), uint(_) = "bc_unsigned_esub";
+
+
+fun sub uint(_), [_], [_] = "bc_any_sub";
+fun sub  int(_), [_], [_] = "bc_any_sub";
+fun sub uint(_), [_] = "bc_sub_onebit";
+fun sub  int(_), [_] = "bc_sub_onebit";
+
+fun cat uint(_), uint(_) = "bc_cat";
+fun cat  int(_),  int(_) = "bc_cat"; 
+

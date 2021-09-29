@@ -1,0 +1,2 @@
+exit | redis-server
+pause

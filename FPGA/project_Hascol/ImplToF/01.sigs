@@ -1,0 +1,1 @@
+file file_VECTORS : STD.textio.text open read_mode is "D:\input_data.txt";

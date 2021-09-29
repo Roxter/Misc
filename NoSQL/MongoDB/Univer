@@ -1,0 +1,255 @@
+use Gym_Student
+
+db.Guy.drop()
+db.Course.drop()
+db.Sport.drop()
+db.Country.drop()
+
+db.Guy.insertMany([
+    { 
+    	name: "Vanya1",
+    	surname: "Petrov",
+    	course: 1,
+    	sports: ["Sport1", "Sport2"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "Singapore", timesAmount: 5}
+    	]
+    },
+    {
+    	name: "Vanya2",
+    	surname: "Ivanov",
+    	course: 2,
+    	sports: ["Sport3"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "China", timesAmount: 2},
+    		{country: "India", timesAmount: 3}
+    	]
+    },
+    {
+    	name: "Petya",
+    	surname: "Morhov",
+    	course: 3,
+    	sports: ["Sport5", "Sport4"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "Indonesia", timesAmount: 11}
+    	]
+    },
+    {
+    	name: "Vova",
+    	surname: "Korovin",
+    	course: 1,
+    	sports: ["Sport3"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "Brazil", timesAmount: 2}
+    	]
+    },
+    {
+    	name: "Misha",
+    	surname: "Korobkin",
+    	course: 4,
+    	sports: ["Sport6"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "Mexico", timesAmount: 10},
+    		{country: "Bangladesh", timesAmount: 1}
+    	]
+    },
+    {
+    	name: "Slava",
+    	surname: "Volkov",
+    	course: 3,
+    	sports: ["Sport1", "Sport4"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "Pakistan", timesAmount: 2}
+    	]
+    },
+    {
+    	name: "Dima",
+    	surname: "Ivanov",
+    	course: 4,
+    	sports: ["Sport7"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "United States", timesAmount: 11}
+    	]
+    },
+    {
+    	name: "Kostya",
+    	surname: "Lovin",
+    	course: 2,
+    	sports: ["Sport8", "Sport9"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "Singapore", timesAmount: 2},
+    		{country: "Mexico", timesAmount: 1}
+    	]
+    },
+    {
+    	name: "Kolya",
+    	surname: "Portlov",
+    	course: 1,
+    	sports: ["Sport8"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "Bangladesh", timesAmount: 3}
+    	]
+    },
+    {
+    	name: "Tolya",
+    	surname: "Mirnin",
+    	course: 3,
+    	sports: ["Sport3", "Sport5"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "Brazil", timesAmount: 1}
+    	]
+    },
+    {
+    	name: "Andrey",
+    	surname: "Slonin",
+    	degree: 'docent',
+    	sports: ["Sport1", "Sport2"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "China", timesAmount: 2}
+    	]
+    },
+    {
+    	name: "Vladimir",
+    	surname: "Tomin",
+    	degree: 'h. teacher',
+    	sports: ["Sport9", "Sport10"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "Pakistan", timesAmount: 1}
+    	]
+    },
+    {
+    	name: "Ilya",
+    	surname: "Nozin",
+    	degree: 'docent',
+    	sports: ["Sport1", "Sport2", "Sport3"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "Brazil", timesAmount: 15}
+    	]
+    },
+    {
+    	name: "Egor",
+    	surname: "Martov",
+    	degree: 'l. teacher',
+    	sports: ["Sport5", "Sport6"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "China", timesAmount: 2}
+    	]
+    },
+    {
+    	name: "Mark",
+    	surname: "Tritin",
+    	degree: 'l. teacher',
+    	sports: ["Sport3", "Sport4"],
+    	visited: [
+    		{country: "Russia", timesAmount: 9999},
+    		{country: "India", timesAmount: 3}
+    	]
+    }
+])
+
+db.Course.insertMany([
+	{name: "Mathematics", duration: 1111, students: ["Vanya1", "Petya", "Tolya", "Dima"], teachers: ["Egor"]},
+	{name: "Physics", duration: 2222, students: ["Misha", "Petya", "Kostya", "Vova"], teachers: ["Ilya", "Egor"]},
+	{name: "English", duration: 3333, students: ["Vanya1", "Petya", "Dima", "Kolya"], teachers: ["Mark"]},
+	{name: "Russian", duration: 1111, students: ["Kostya", "Vanya2", "Tolya"], teachers: ["Andrey"]},
+	{name: "Informatics", duration: 2222, students: ["Vanya1", "Misha", "Tolya", "Vova"], teachers: ["Vladimir"]}
+])
+
+db.Sport.insertMany([
+	{name: "Sport1"},
+	{name: "Sport2"},
+	{name: "Sport3"},
+	{name: "Sport4"},
+	{name: "Sport5"},
+	{name: "Sport6"},
+	{name: "Sport7"},
+	{name: "Sport8"},
+	{name: "Sport9"},
+	{name: "Sport10"}
+])
+
+db.Country.insertMany([
+	{name: "Russia", capital: "Moskow", population: 143895551},
+	{name: 'China', capital: 'Beijing', population: 1420062022},
+	{name: 'India', capital: 'New Delhi', population: 1368737513},
+	{name: 'United States', capital: 'Washington, D.C.', population: 329093110},
+	{name: 'Indonesia', capital: 'Jakarta', population: 269536482},
+	{name: 'Brazil', capital: 'Brazilia', population: 212392717},
+	{name: 'Pakistan', capital: 'Islamabad', population: 204596442},
+	{name: 'Singapore', capital: 'Singapore', population: 5612000},
+	{name: 'Bangladash', capital: 'Dhaka', population: 168065920},
+	{name: 'Mexico', capital: 'Mexico city', population: 132328035}
+])
+
+
+
+
+// Общее число записей во всех коллекциях
+db.Country.count() + db.Course.count() + db.Guy.count() + db.Sport.count()
+
+// Преподаватели, которые провели большое количество времени в стране
+db.Guy.find({ 
+    "visited.timesAmount": 9999
+})
+
+// Преподаватели, которые ведут курс №2 и посетили Индию
+db.Guy.find({ 
+    Course: 2,
+    "visited.country": "India"
+})
+
+// Средняя длительность всех курсов
+db.Course.aggregate({$match: {}}, {
+    $group: { _id : "avg_obj", aver : { $avg: "$duration" } }
+})
+
+// Названия стран, соответствующие названию столицы
+db.Country.find({ $where: "this.name == this.capital" })
+
+// Преподаватели, имеющие степень
+db.Guy.find({
+  "degree": { "$exists": true }
+}).count()
+
+// Курсы, которые ведут несколько преподавателей
+db.Course.find( { $where: "this.teachers.length > 1" } );
+
+// Курсы, которые ведут несколько преподавателей
+db.Course.createIndex(
+    {'teachers.1': 1},
+    {partialFilterExpression: {'teachers.1': {$exists: true}}}
+);
+db.Course.find({'teachers.1': {$exists: true}})
+
+// Численность населения всех стран
+db.Country.aggregate({$match: {}}, {
+    $group: { _id : "sum_obj", sum : { $sum: "$population" } }
+})
+
+// Найти преподавателей, пребывающих в стране больше 1 часа, которые ведут не один курс, и отсортировать данные по именам
+var cursor = db.Guy.find({ 
+    "visited.timesAmount": {$gt: 1},
+    Course: {$ne: 1}
+    }).sort({ name: 1 })
+
+// Отобразить только имена прерподавателей с помощью массива
+var results = [];
+cursor.forEach(
+  function(row) {
+     results.push(row.name);
+  });
+results

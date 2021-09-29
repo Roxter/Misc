@@ -1,0 +1,4 @@
+file file_VECTORS0 : STD.textio.text open write_mode is "D:\output_data0.txt";
+file file_VECTORS1 : STD.textio.text open write_mode is "D:\output_data1.txt";
+file file_VECTORS2 : STD.textio.text open write_mode is "D:\output_data2.txt";
+file file_VECTORS3 : STD.textio.text open write_mode is "D:\output_data3.txt";

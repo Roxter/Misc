@@ -1,0 +1,2 @@
+signal LogOutLeft: std_logic_vector(64-1 downto 0);
+signal LogOutRight: std_logic_vector(64-1 downto 0);

@@ -1,0 +1,477 @@
+use gym
+
+db.Clients.remove({})
+
+db.Clients.insert(
+{
+ "first_name": "Elena",
+ "last_name": "Tarabline",
+ "sport_type": "Valleyball",
+ "pol": "female",
+ "abon_type": "1 retry in week",
+ "abon_price": 500,
+ "phone": "+79115837512" 
+})
+
+db.Clients.insert(
+{
+ "first_name": "Vyacheslav",
+ "last_name": "Zaycev",
+ "sport_type": "Valleyball",
+ "pol": "male",
+ "abon_type": "2 retry in week",
+ "abon_price": 100,
+ "phone": "+79225867385"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Sergey",
+ "last_name": "Gorbachev",
+ "sport_type": "Football",
+ "pol": "male",
+ "abon_type": "4 retry in week",
+ "abon_price": 300,
+ "phone": "+79334967583" 
+})
+
+db.Clients.insert(
+{
+ "first_name": "Sergey",
+ "last_name": "Svetlakov",
+ "sport_type": "Football",
+ "pol": "male",
+ "abon_type": "1 retry in week",
+ "abon_price": 500,
+ "phone": "+79444960584"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Ilya",
+ "last_name": "Bykov",
+ "sport_type": "Football",
+ "pol": "male",
+ "abon_type": "2 retry in week",
+ "abon_price": 200,
+ "phone": "+79554857492"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Svetlana",
+ "last_name": "Bykova",
+ "sport_type": "Basketball",
+ "pol": "female",
+ "abon_type": "1 retry in week",
+ "abon_price": 300,
+ "phone": "+79663958795"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Roman",
+ "last_name": "Biryukov",
+ "sport_type": "Baseball",
+ "pol": "male",
+ "abon_type": "3 retry in week",
+ "abon_price": 500,
+ "phone": "+79774869583"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Natalya",
+ "last_name": "Vasilyeva",
+ "sport_type": "Baseball",
+ "pol": "female",
+ "abon_type": "3 retry in week",
+ "abon_price": 100,
+ "phone": "+79883958693"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Nikolay",
+ "last_name": "Luzhkov",
+ "sport_type": "Valleyball",
+ "pol": "male",
+ "abon_type": "3 retry in week",
+ "abon_price": 200,
+ "phone": "+79994968473"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Sergey",
+ "last_name": "Titov",
+ "sport_type": "Baseball",
+ "pol": "male",
+ "abon_type": "2 retry in week",
+ "abon_price": 300,
+ "phone": "+79003957843"
+})
+
+
+db.Clients.insert(
+{
+ "first_name": "Natalya",
+ "last_name": "Andreeva",
+ "sport_type": "Basketball",
+ "pol": "female",
+ "abon_type": "4 retry in week",
+ "abon_price": 400,
+ "phone": "+79114857293"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Petr",
+ "last_name": "Lobanov",
+ "sport_type": "Basketball",
+ "pol": "male",
+ "abon_type": "3 retry in week",
+ "abon_price": 300,
+ "phone": "+79114858395"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Alexey",
+ "last_name": "Semenov",
+ "sport_type": "Football",
+ "pol": "male",
+ "abon_type": "3 retry in week",
+ "abon_price": 400,
+ "phone": "+79234958603"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Vladimir",
+ "last_name": "Gorkiy",
+ "sport_type": "Baseball",
+ "pol": "male",
+ "abon_type": "1 retry in week",
+ "abon_price": 100,
+ "phone": "+79144938574" 
+})
+
+db.Clients.insert(
+{
+ "first_name": "Mykhail",
+ "last_name": "Zaycev",
+ "sport_type": "Basketball",
+ "pol": "male",
+ "abon_type": "1 retry in week",
+ "abon_price": 300,
+ "phone": "+79253984857"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Petr",
+ "last_name": "Skvortsov",
+ "sport_type": "Valleyball",
+ "pol": "male",
+ "abon_type": "2 retry in week",
+ "abon_price": 500,
+ "phone": "+79164958304"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Ilya",
+ "last_name": "Sergeev",
+ "sport_type": "Basketball",
+ "pol": "male",
+ "abon_type": "4 retry in week",
+ "abon_price": 300,
+ "phone": "+79773849502"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Vladimir",
+ "last_name": "Petrov",
+ "sport_type": "Football",
+ "pol": "male",
+ "abon_type": "2 retry in week",
+ "abon_price": 400,
+ "phone": "+79884958394"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Vladislav",
+ "last_name": "Gorelov",
+ "sport_type": "Baseball",
+ "pol": "male",
+ "abon_type": "3 retry in week",
+ "abon_price": 200,
+ "phone": "+72994983028"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Sergey",
+ "last_name": "Kotov",
+ "sport_type": "Valleyball",
+ "pol": "male",
+ "abon_type": "2 retry in week",
+ "abon_price": 100,
+ "phone": "+79204859349"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Igor",
+ "last_name": "Egorov",
+ "sport_type": "Basketball",
+ "pol": "male",
+ "abon_type": "3 retry in week",
+ "abon_price": 200,
+ "phone": "+79114859302"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Egor",
+ "last_name": "Peskov",
+ "sport_type": "Basketball",
+ "pol": "male",
+ "abon_type": "4 retry in week",
+ "abon_price": 300,
+ "phone": "+79113948390"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Boris",
+ "last_name": "Sergeev",
+ "sport_type": "Football",
+ "pol": "male",
+ "abon_type": "3 retry in week",
+ "abon_price": 200,
+ "phone": "+79324859603"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Prokhor",
+ "last_name": "Vadimov",
+ "sport_type": "Swimming",
+ "pol": "male",
+ "abon_type": "2 retry in week",
+ "abon_price": 400,
+ "phone": "+79439405832"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Galina",
+ "last_name": "Glebova",
+ "sport_type": "Basketball",
+ "pol": "female",
+ "abon_type": "4 retry in week",
+ "abon_price": 200,
+ "phone": "+79548594035"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Pavel",
+ "last_name": "Stepanov",
+ "sport_type": "Valleyball",
+ "pol": "male",
+ "abon_type": "1 retry in week",
+ "abon_price": 300,
+ "phone": "+79648594036"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Sergey",
+ "last_name": "Elizarov",
+ "sport_type": "Baseball",
+ "pol": "male",
+ "abon_type": "1 retry in week",
+ "abon_price": 300,
+ "phone": "+79495830277"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Vyacheslav",
+ "last_name": "Kirillov",
+ "sport_type": "Valleyball",
+ "pol": "male",
+ "abon_type": "3 retry in week",
+ "abon_price": 100,
+ "phone": "+79828888888"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Nikolay",
+ "last_name": "Mikhailov",
+ "sport_type": "Football",
+ "pol": "male",
+ "abon_type": "2 retry in week",
+ "abon_price": 200,
+ "phone": "+79999999992" 
+})
+
+db.Clients.insert(
+{
+ "first_name": "Oleg",
+ "last_name": "Shevtsov",
+ "sport_type": "Basketball",
+ "pol": "male",
+ "abon_type": "4 retry in week",
+ "abon_price": 300,
+ "phone": "+79020000000"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Olga",
+ "last_name": "Petrova",
+ "sport_type": "Valleyball",
+ "pol": "female",
+ "abon_type": "1 retry in week",
+ "abon_price": 400,
+ "phone": "+79112111111"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Svetlana",
+ "last_name": "Skvortsova",
+ "sport_type": "Football",
+ "pol": "female",
+ "abon_type": "3 retry in week",
+ "abon_price": 500,
+ "phone": "+7911112111"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Sergey",
+ "last_name": "Yakimov",
+ "sport_type": "Baseball",
+ "pol": "male",
+ "abon_type": "2 retry in week",
+ "abon_price": 200,
+ "phone": "+79233333323"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Yaroslav",
+ "last_name": "Stechkin",
+ "sport_type": "Football",
+ "pol": "male",
+ "abon_type": "4 retry in week",
+ "abon_price": 500,
+ "phone": "+79144444444" 
+})
+
+db.Clients.insert(
+{
+ "first_name": "Vasilisa",
+ "last_name": "Vasileva",
+ "sport_type": "Valleyball",
+ "pol": "female",
+ "abon_type": "1 retry in week",
+ "abon_price": 200,
+ "phone": "+79255555225"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Vladimir",
+ "last_name": "Vladimirov",
+ "sport_type": "Baseball",
+ "pol": "male",
+ "abon_type": "2 retry in week",
+ "abon_price": 300,
+ "phone": "+79166226666"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Vsevolod",
+ "last_name": "Gvozdev",
+ "sport_type": "Basketball",
+ "pol": "male",
+ "abon_type": "4 retry in week",
+ "abon_price": 100,
+ "phone": "+79772277772"  
+})
+
+db.Clients.insert(
+{
+ "first_name": "Leonid",
+ "last_name": "Galkin",
+ "sport_type": "Football",
+ "pol": "male",
+ "abon_type": "2 retry in week",
+ "abon_price": 300,
+ "phone": "+79888822882"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Sergey",
+ "last_name": "Starikov",
+ "sport_type": "Swimming",
+ "pol": "male",
+ "abon_type": "3 retry in week",
+ "abon_price": 100,
+ "phone": "+72992229999"
+})
+
+db.Clients.insert(
+{
+ "first_name": "Timofey",
+ "last_name": "Zaycev",
+ "sport_type": "Baseball",
+ "pol": "male",
+ "abon_type": "2 retry in week",
+ "abon_price": 200,
+ "phone": "+79200222000"
+});
+
+
+
+
+//Все клиенты базы в порядке добавления записей
+db.Clients.find({}, {_id:0}).sort({ $natural: 1 })
+
+//Последние 5 записей базы
+db.Clients.find({}, {_id:0}).sort({ $natural: -1 }).limit(5)
+
+//Клиенты с именем Сергей
+db.Clients.find({first_name:"Sergey"}, {_id:0})
+
+//Клиенты женского пола
+db.Clients.find({pol:"female"}, {_id:0, pol:1, first_name:1, last_name:1})
+
+//Клиент с номером +79495830277
+db.Clients.find({phone:"+79495830277"}, {_id:0}).pretty()
+
+//Клиенты, посещающие Футбол и Волейбол
+db.Clients.find({ $or: [{sport_type:"Football"}, {sport_type:"Valleyball"}] }, {sport_type:1, first_name:1, last_name:1, _id:0})
+
+//Существующие имена клиентов
+db.Clients.distinct("first_name")
+
+//Клиенты с именем, начинающимся на "Vl"
+db.Clients.find({first_name:/Vl\w+/i}, {_id:0})
+
+//Клиенты с абонементом на 3 посещения
+db.Clients.find({abon_type:/3\W+/i}, {abon_type:1, first_name:1, last_name:1, _id:0})
+
+//Клиенты с ценой абонемента между 100руб. и 400руб.
+db.Clients.find({$where : function() { return this.abon_price > 100 && this.abon_price < 400}}, {abon_price:1, first_name:1, last_name:1, _id:0}).pretty()

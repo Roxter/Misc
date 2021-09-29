@@ -1,0 +1,24 @@
+process (clk) is 
+	variable v_ILINE4     : STD.textio.line;
+	variable v_ILINE5     : STD.textio.line;
+	variable v_ILINE6     : STD.textio.line;
+	variable v_ILINE7     : STD.textio.line;
+	variable ValCntrEnd:integer:=0;
+	begin
+	if clk'event and clk='1' then
+		if rst='1' then
+		else
+			if inputs_ena = '1' or ValCntrEnd = 61 then
+				STD.textio.writeline(file_VECTORS4, v_ILINE4);
+				STD.textio.write(v_ILINE4, conv_integer(conv_unsigned(inputs_data.p0(31 downto 0))));
+				STD.textio.writeline(file_VECTORS5, v_ILINE5);
+				STD.textio.write(v_ILINE5, conv_integer(conv_unsigned(inputs_data.p1(31 downto 0))));
+				STD.textio.writeline(file_VECTORS6, v_ILINE6);
+				STD.textio.write(v_ILINE6, conv_integer(conv_unsigned(inputs_data.p2(31 downto 0))));
+				STD.textio.writeline(file_VECTORS7, v_ILINE7);
+				STD.textio.write(v_ILINE7, conv_integer(conv_unsigned(inputs_data.p3(0 downto 0))));
+				ValCntrEnd := ValCntrEnd+1;
+			end if;
+		end if;
+	end if;
+end process;

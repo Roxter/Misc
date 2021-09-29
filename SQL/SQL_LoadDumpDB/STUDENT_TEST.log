@@ -1,0 +1,820 @@
+
+SQL*Loader: Release 11.2.0.4.0 - Production on Чт Сен 16 00:37:49 2021
+
+Copyright (c) 1982, 2011, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   ./STUDENT_TEST.ctl
+Character Set UTF8 specified for all input.
+
+Data File:      STUDENTS.CSV
+  Bad File:     ./STUDENTS.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                          FIRST     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                           NEXT     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (1, 0)
+SCORE                                NEXT     *   ;       CHARACTER            
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (2, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (3, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (4, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (5, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (6, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (7, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (8, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (9, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (10, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (11, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (12, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (13, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (14, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (15, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+
+Table STUDENT_DB.STUDENT_TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                           NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+STUDENT_ID                              7     *   ;       CHARACTER            
+TEST_ID                                                   SEQUENCE (16, 0)
+S1                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S2                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S3                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S4                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S5                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S6                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S7                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S8                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S9                                   NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S10                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S11                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S12                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S13                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S14                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+S15                                  NEXT     *   ;       CHARACTER            
+  (FILLER FIELD)
+SCORE                                NEXT     *   ;       CHARACTER            
+
+value used for ROWS parameter changed from 64 to 29
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Table STUDENT_DB.STUDENT_TEST:
+  1394 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 250096 bytes(29 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:          1394
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Чт Сен 16 00:37:49 2021
+Run ended on Чт Сен 16 00:37:50 2021
+
+Elapsed time was:     00:00:00.59
+CPU time was:         00:00:00.20

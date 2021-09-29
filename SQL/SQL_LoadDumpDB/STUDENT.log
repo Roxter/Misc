@@ -1,0 +1,54 @@
+
+SQL*Loader: Release 11.2.0.4.0 - Production on Чт Сен 16 00:37:45 2021
+
+Copyright (c) 1982, 2011, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   ./STUDENT.ctl
+Character Set UTF8 specified for all input.
+
+Data File:      STUDENTS.CSV
+  Bad File:     ./STUDENTS.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table STUDENT_DB.STUDENT, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+GROUP_CODE                          FIRST     *   ;       CHARACTER            
+STUDENT_ID                           NEXT     *   ;       CHARACTER            
+
+Record 1: Rejected - Error on table STUDENT_DB.STUDENT, column STUDENT_ID.
+ORA-01722: неверное число
+
+
+Table STUDENT_DB.STUDENT:
+  1394 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  33024 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          1395
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Чт Сен 16 00:37:45 2021
+Run ended on Чт Сен 16 00:37:45 2021
+
+Elapsed time was:     00:00:00.12
+CPU time was:         00:00:00.01

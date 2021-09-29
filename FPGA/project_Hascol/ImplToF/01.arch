@@ -1,0 +1,33 @@
+process (clk) is 
+	variable v_ILINE     : STD.textio.line;
+	variable TERM1 : integer;
+	variable v_SPACE     : character;
+	variable end_file : boolean := false;
+	variable ValCntrStart:integer:=0;
+	variable ValCntrEnd:integer:=0;
+begin
+	if clk'event and clk='1' then
+		if rst='1' then
+			output_data.p0 <= std_logic_vector(IEEE.numeric_std.to_signed(0,16));
+			output_ena <= '1';
+		else
+			if ValCntrStart < 1 then
+				ValCntrStart := ValCntrStart+1;
+			else
+				if (not end_file) then
+					STD.textio.readline(file_VECTORS, v_ILINE);
+					STD.textio.read(v_ILINE, TERM1);
+					STD.textio.read(v_ILINE, v_SPACE);           -- read in the space character
+					output_data.p0 <= std_logic_vector(IEEE.numeric_std.to_signed(TERM1,16));
+					if STD.textio.endfile(file_VECTORS) then
+						STD.textio.file_close(file_VECTORS);
+						end_file := true;
+					end if;
+				else
+					output_ena <= '0';
+				end if;
+			end if;
+		end if;
+	end if;
+	input_rdy_ena <= output_rdy_ena;
+end process;

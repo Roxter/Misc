@@ -1,0 +1,54 @@
+
+SQL*Loader: Release 11.2.0.4.0 - Production on Чт Сен 16 00:37:47 2021
+
+Copyright (c) 1982, 2011, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   ./TEST.ctl
+Character Set UTF8 specified for all input.
+
+Data File:      STUDENTS.CSV
+  File processing option string: "str';'"
+  Bad File:     ./STUDENTS.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: 16
+Number to skip: 2
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table STUDENT_DB.TEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+TEST_ID                                                   SEQUENCE (MAX, 1)
+TEST_NAME                           FIRST     *           CHARACTER            
+    Terminator string : '
+'
+
+
+Table STUDENT_DB.TEST:
+  16 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  17984 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          2
+Total logical records read:            16
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Чт Сен 16 00:37:47 2021
+Run ended on Чт Сен 16 00:37:47 2021
+
+Elapsed time was:     00:00:00.06
+CPU time was:         00:00:00.04
