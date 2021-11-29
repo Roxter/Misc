@@ -1,7 +1,7 @@
 # Java_Concurrency
 
 Проекты по параллельному программированию, выполненные в среде Intellij IDEA. 
-Перед запуском необходим установленный JDK x64 последней версии. Скачать можно по ссылке https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.msi
+Перед запуском необходим установленный JDK x64 последней версии. Скачать для ОС Windows можно по ссылке https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.msi
 После установки JDK запустить файл Start_ProducersConsumers.bat и Start_ThreadPool.bat
 Скомпилированные JAR файлы находятся в директории \project_%NAME%\out\artifacts\project_%NAME%_jar
 
