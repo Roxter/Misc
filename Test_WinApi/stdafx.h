@@ -1,0 +1,20 @@
+// stdafx.h: включаемый файл дл€ стандартных системных включаемых файлов
+// или включаемых файлов дл€ конкретного проекта, которые часто используютс€, но
+// не часто измен€ютс€
+//
+
+#pragma once
+
+#include "targetver.h"
+
+#include <stdio.h>
+#include <afxwin.h>
+#include <tchar.h>
+#include <string>
+#include <vector>
+#include <strsafe.h>
+#include "mmSystem.h"
+
+#pragma comment(lib, "winmm.lib")
+
+// TODO: ”становите здесь ссылки на дополнительные заголовки, требующиес€ дл€ программы

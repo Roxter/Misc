@@ -3,10 +3,27 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="11b44fd3-960c-4e2e-811f-49bf6b4cfc7e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project_IO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,41 +64,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
-    <configuration name="MainIO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainIO" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="project_IO" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Users\1\IdeaProjects\K-2_4 L600 (2014).txt&quot; &quot;C:\Users\1\IdeaProjects\out.txt&quot;" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="project_IO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="project_IO" />
-      <option name="filePath" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Users\1\IdeaProjects\c-10-1.txt&quot; 3 4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainIO" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -94,6 +98,9 @@
       <updated>1637349573389</updated>
       <workItem from="1637349575602" duration="8596000" />
       <workItem from="1637439698800" duration="34796000" />
+      <workItem from="1638264609161" duration="15648000" />
+      <workItem from="1638297413958" duration="8000" />
+      <workItem from="1638297445614" duration="21934000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <created>1637670679090</created>
@@ -109,15 +116,158 @@
       <option name="project" value="LOCAL" />
       <updated>1637889586874</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="release v1.0">
+      <created>1638297146106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638297146106</updated>
+    </task>
+    <task id="LOCAL-00004" summary="release v1.0">
+      <created>1638298556633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638298556634</updated>
+    </task>
+    <task id="LOCAL-00005" summary="release v1.0">
+      <created>1638388093847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638388093847</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1d21f8f8-f24c-4c5b-b49d-768cb8584ed2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="791792ad-2f88-42c6-9622-17614dbcbd52">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/1/IdeaProjects/project_IO/.idea" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1d21f8f8-f24c-4c5b-b49d-768cb8584ed2" value="TOOL_WINDOW" />
+        <entry key="791792ad-2f88-42c6-9622-17614dbcbd52" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
     <MESSAGE value="release v1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="release v1.0" />
+    <MESSAGE value="release v1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="release v1.2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="876" y="422" key="#Notifications" timestamp="1638360756116">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state x="876" y="422" key="#Notifications/0.0.1920.1052@0.0.1920.1052" timestamp="1638360756116" />
+    <state x="482" y="266" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1638375443978">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state x="482" y="266" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1052@0.0.1920.1052" timestamp="1638375443978" />
+    <state x="758" y="367" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1638367736216">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state x="758" y="367" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1052@0.0.1920.1052" timestamp="1638367736216" />
+    <state x="658" y="174" key="CommitChangelistDialog2" timestamp="1638388264869">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state x="658" y="174" key="CommitChangelistDialog2/0.0.1920.1052@0.0.1920.1052" timestamp="1638388264869" />
+    <state x="797" y="342" key="FileChooserDialogImpl" timestamp="1638370299080">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state x="797" y="342" key="FileChooserDialogImpl/0.0.1920.1052@0.0.1920.1052" timestamp="1638370299080" />
+    <state width="943" height="289" key="GridCell.Tab.0.bottom" timestamp="1638388340380">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state width="943" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1052@0.0.1920.1052" timestamp="1638388340380" />
+    <state width="943" height="289" key="GridCell.Tab.0.center" timestamp="1638388340380">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state width="943" height="289" key="GridCell.Tab.0.center/0.0.1920.1052@0.0.1920.1052" timestamp="1638388340380" />
+    <state width="943" height="289" key="GridCell.Tab.0.left" timestamp="1638388340379">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state width="943" height="289" key="GridCell.Tab.0.left/0.0.1920.1052@0.0.1920.1052" timestamp="1638388340379" />
+    <state width="943" height="289" key="GridCell.Tab.0.right" timestamp="1638388340380">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state width="943" height="289" key="GridCell.Tab.0.right/0.0.1920.1052@0.0.1920.1052" timestamp="1638388340380" />
+    <state x="589" y="250" key="SettingsEditor" timestamp="1638298135880">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state x="589" y="250" key="SettingsEditor/0.0.1920.1052@0.0.1920.1052" timestamp="1638298135880" />
+    <state x="656" y="325" key="Vcs.Push.Dialog.v2" timestamp="1638388096003">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state x="656" y="325" key="Vcs.Push.Dialog.v2/0.0.1920.1052@0.0.1920.1052" timestamp="1638388096003" />
+    <state x="765" y="364" key="git4idea.merge.GitPullDialog" timestamp="1638298609027">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state x="765" y="364" key="git4idea.merge.GitPullDialog/0.0.1920.1052@0.0.1920.1052" timestamp="1638298609027" />
+    <state x="812" y="450" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1638298065944">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state x="812" y="450" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1052@0.0.1920.1052" timestamp="1638298065944" />
+    <state x="703" y="244" key="run.anything.popup" timestamp="1638265498067">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state x="703" y="244" key="run.anything.popup/0.0.1920.1052@0.0.1920.1052" timestamp="1638265498067" />
   </component>
 </project>
